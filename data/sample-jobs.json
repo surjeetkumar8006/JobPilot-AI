@@ -1,0 +1,122 @@
+[
+  {
+    "id": "job-001",
+    "company": "Google Cloud",
+    "role": "Frontend Engineer - Cloud Console",
+    "location": "Bengaluru, India (Hybrid)",
+    "type": "Full-Time",
+    "salary": "₹18,000,000 - ₹24,000,000 PA",
+    "description": "We are seeking a Frontend Engineer to build high-performance, accessible, and scalable UI components for the Google Cloud Console. Requirements: 2+ years experience in React, TypeScript, state management, REST/gRPC APIs, performance profiling, and GCP integration.",
+    "requirements": ["React", "TypeScript", "Redux/Zustand", "REST APIs", "GCP", "Accessibility (a11y)"],
+    "experienceLevel": "Intermediate",
+    "postedDate": "2026-08-28"
+  },
+  {
+    "id": "job-002",
+    "company": "Razorpay",
+    "role": "Backend Engineer (Golang / Node.js)",
+    "location": "Bengaluru, India",
+    "type": "Full-Time",
+    "salary": "₹16,000,000 - ₹22,000,000 PA",
+    "description": "Join Razorpay's core payments team building resilient microservices handling millions of daily transactions. Experience with Node.js/Go, PostgreSQL, Redis, distributed locks, Kafka, and GCP/AWS Cloud Run microservices is essential.",
+    "requirements": ["Node.js", "Golang", "PostgreSQL", "Redis", "Kafka", "Docker", "Firestore"],
+    "experienceLevel": "Intermediate",
+    "postedDate": "2026-09-01"
+  },
+  {
+    "id": "job-003",
+    "company": "Swiggy",
+    "role": "Full Stack Software Engineer",
+    "location": "Remote / Bengaluru",
+    "type": "Full-Time",
+    "salary": "₹15,000,000 - ₹20,000,000 PA",
+    "description": "Swiggy is hiring Full Stack Engineers to build real-time merchant analytics and AI-assisted onboarding tools. Tech stack includes React, Node.js, Express, Firestore, Tailwind CSS, and LLM integrations via Gemini / OpenAI.",
+    "requirements": ["React", "Node.js", "Express", "Tailwind CSS", "Gemini API", "NoSQL"],
+    "experienceLevel": "Entry-Level / Junior",
+    "postedDate": "2026-09-02"
+  },
+  {
+    "id": "job-004",
+    "company": "Zomato",
+    "role": "AI Applications Software Developer",
+    "location": "Gurugram, India",
+    "type": "Full-Time",
+    "salary": "₹17,000,000 - ₹25,000,000 PA",
+    "description": "Build next-generation generative AI tools for hyper-personalized customer recommendations and automated partner responses. Requires strong Python/Node.js skills, familiarity with Google Cloud Vertex AI or Gemini SDKs, and REST API design.",
+    "requirements": ["Python", "Node.js", "Gemini SDK", "Vertex AI", "FastAPI", "Docker"],
+    "experienceLevel": "Intermediate",
+    "postedDate": "2026-09-03"
+  },
+  {
+    "id": "job-005",
+    "company": "Atlassian",
+    "role": "Graduate Software Engineer",
+    "location": "Bengaluru, India",
+    "type": "Full-Time",
+    "salary": "₹18,000,000 PA",
+    "description": "Atlassian's Graduate Development Program offers exposure to collaborative tools like Jira, Confluence, and Trello. Looking for recent grads proficient in Java, JavaScript/TypeScript, cloud fundamentals, and clean code principles.",
+    "requirements": ["TypeScript", "Java", "Data Structures & Algorithms", "Git", "REST APIs"],
+    "experienceLevel": "Entry-Level",
+    "postedDate": "2026-08-30"
+  },
+  {
+    "id": "job-006",
+    "company": "PhonePe",
+    "role": "Software Development Engineer 1 (SDE-1)",
+    "location": "Bengaluru, India",
+    "type": "Full-Time",
+    "salary": "₹16,000,000 - ₹20,000,000 PA",
+    "description": "Looking for enthusiastic SDE-1 developers to build high-scale financial platforms. Focus on clean code, unit testing, asynchronous message queues (RabbitMQ/Kafka), Node.js/Java backend, and GCP Firestore/Cloud Spanner DBs.",
+    "requirements": ["Node.js", "Java", "SQL/NoSQL", "Kafka", "Data Structures"],
+    "experienceLevel": "Entry-Level",
+    "postedDate": "2026-09-04"
+  },
+  {
+    "id": "job-007",
+    "company": "Cred",
+    "role": "UI/UX Frontend Developer",
+    "location": "Bengaluru, India",
+    "type": "Full-Time",
+    "salary": "₹20,000,000 - ₹26,000,000 PA",
+    "description": "Join CRED's design engineering team crafting world-class micro-interactions, smooth animations, and pixel-perfect React/Next.js interfaces. Requirements: Framer Motion, Tailwind CSS, TypeScript, modern web performance optimizations.",
+    "requirements": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Animation libraries"],
+    "experienceLevel": "Intermediate",
+    "postedDate": "2026-09-05"
+  },
+  {
+    "id": "job-008",
+    "company": "Postman",
+    "role": "DevRel & AI Integrations Engineer",
+    "location": "Remote (India)",
+    "type": "Full-Time",
+    "salary": "₹17,000,000 - ₹23,000,000 PA",
+    "description": "Help developers integrate generative AI models with Postman API workflows. Require proficiency in API design, OpenAPI specifications, Node.js, Python, and developer advocacy content creation.",
+    "requirements": ["API Design", "Node.js", "OpenAPI", "Gemini API", "Developer Documentation"],
+    "experienceLevel": "Intermediate",
+    "postedDate": "2026-09-06"
+  },
+  {
+    "id": "job-009",
+    "company": "Flipkart",
+    "role": "Cloud Systems & DevOps Engineer",
+    "location": "Bengaluru, India",
+    "type": "Full-Time",
+    "salary": "₹18,000,000 - ₹24,000,000 PA",
+    "description": "Manage containerized infrastructure on GCP Cloud Run, Kubernetes (GKE), Terraform, and CI/CD automation pipelines for Flipkart's Big Billion Days scale operations.",
+    "requirements": ["GCP", "Cloud Run", "Kubernetes", "Docker", "Terraform", "CI/CD"],
+    "experienceLevel": "Intermediate",
+    "postedDate": "2026-09-07"
+  },
+  {
+    "id": "job-010",
+    "company": "InMobi",
+    "role": "Data & Backend Engineer",
+    "location": "Bengaluru, India",
+    "type": "Full-Time",
+    "salary": "₹16,000,000 - ₹21,000,000 PA",
+    "description": "Build high-throughput ad-tech streaming pipelines utilizing GCP Pub/Sub, Cloud Functions, BigQuery, Node.js, and Firestore.",
+    "requirements": ["Node.js", "Firestore", "GCP Pub/Sub", "BigQuery", "SQL"],
+    "experienceLevel": "Intermediate",
+    "postedDate": "2026-09-08"
+  }
+]

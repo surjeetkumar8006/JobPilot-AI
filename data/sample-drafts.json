@@ -1,0 +1,29 @@
+[
+  {
+    "id": "draft-001",
+    "jobId": "job-001",
+    "type": "Cover Letter",
+    "title": "Tailored Cover Letter - Google Cloud Console Frontend Engineer",
+    "content": "Dear Hiring Team,\n\nI am writing to express my strong enthusiasm for the Frontend Engineer position on the Google Cloud Console team. With 2+ years of hands-on experience building reactive web interfaces using React, TypeScript, and state management libraries, I am excited about the opportunity to elevate Google Cloud's developer console user experience.\n\nIn my previous projects, I architected accessible, high-performance UI components using modern React patterns, reducing page load latency by 35% and adhering strictly to WCAG accessibility standards. My experience integrating REST/gRPC backend endpoints and working with GCP Cloud services allows me to make immediate contributions to your engineering workflows.\n\nI look forward to discussing how my frontend technical skillset and passion for developer tools align with Google Cloud's mission.\n\nBest regards,\n[Applicant Name]",
+    "status": "Final",
+    "createdAt": "2026-09-02T10:15:00Z"
+  },
+  {
+    "id": "draft-002",
+    "jobId": "job-002",
+    "type": "Cold Email",
+    "title": "Cold Outreach - Razorpay Backend Engineering",
+    "content": "Hi [Hiring Manager / Recruiter Name],\n\nI recently came across Razorpay's open role for a Backend Engineer (Node.js/Go) and was instantly drawn to your work scaling resilient payment microservices.\n\nHaving designed microservice architectures using Node.js, PostgreSQL, Redis, and Firestore that process thousands of requests per second, I am confident in my ability to contribute to Razorpay's high-throughput payment pipelines. Recently, I implemented distributed locking with Redis to prevent race conditions during high-concurrency transaction bursts.\n\nI would love 10 minutes to learn more about upcoming challenges in your team. Are you available for a brief chat later this week?\n\nBest,\n[Applicant Name]",
+    "status": "Draft",
+    "createdAt": "2026-09-03T14:20:00Z"
+  },
+  {
+    "id": "draft-003",
+    "jobId": "job-003",
+    "type": "Follow-Up Nudge",
+    "title": "Post-Interview Follow-Up - Swiggy Full Stack Engineer",
+    "content": "Hi [Interviewer Name],\n\nThank you for taking the time to speak with me today about the Full Stack Software Engineer position at Swiggy. I really enjoyed our conversation regarding your AI-assisted onboarding tools and micro-frontend architecture.\n\nOur discussion further reinforced my enthusiasm for joining Swiggy. I am confident that my experience with React, Node.js, and Google Gemini API integrations will allow me to hit the ground running.\n\nPlease let me know if there are any additional details or references I can provide.\n\nWarm regards,\n[Applicant Name]",
+    "status": "Scheduled",
+    "createdAt": "2026-09-04T09:30:00Z"
+  }
+]
