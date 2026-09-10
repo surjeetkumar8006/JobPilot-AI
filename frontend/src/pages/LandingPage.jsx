@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { 
   Sparkles, Briefcase, FileText, Send, BellRing, ArrowRight, 
-  CheckCircle2, Cpu, ShieldCheck, Zap, Star, Code, Layers, Terminal
+  Cpu, Star, Layers, Terminal
 } from 'lucide-react';
 import { useAuth } from '../hooks/useAuth';
 
@@ -340,32 +340,6 @@ export default function LandingPage() {
                 <span className="text-slate-500">Backend Engineer at Razorpay</span>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* High-Impact Bottom Call To Action */}
-      <section className="py-20 px-6 max-w-4xl mx-auto text-center space-y-6 relative z-10">
-        <div className="bg-gradient-to-r from-indigo-900/60 via-slate-900 to-purple-900/60 border border-slate-700/80 p-10 rounded-3xl space-y-6 shadow-2xl backdrop-blur-md">
-          <h2 className="text-3xl font-extrabold text-white">Ready to Supercharge Your Job Search?</h2>
-          <p className="text-slate-300 text-sm max-w-xl mx-auto">
-            Join thousands of developers using Google Cloud AI to track applications and draft tailored responses.
-          </p>
-
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2">
-            <Link
-              to="/signup"
-              className="px-8 py-3.5 bg-white hover:bg-slate-100 text-slate-900 font-semibold text-base rounded-xl transition-all shadow-none flex items-center justify-center space-x-2"
-            >
-              <span>Get Started Free</span>
-              <ArrowRight className="w-5 h-5" />
-            </Link>
-            <button
-              onClick={handleDemoAccess}
-              className="px-8 py-3.5 bg-slate-900 hover:bg-slate-800 text-slate-200 border border-slate-700 font-semibold text-base rounded-xl transition-all shadow-none"
-            >
-              Explore Demo Account
-            </button>
           </div>
         </div>
       </section>
