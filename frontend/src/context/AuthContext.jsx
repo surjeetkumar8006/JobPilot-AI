@@ -1,21 +1,11 @@
-import React, { createContext, useState, useEffect } from 'react';
+import React, { createContext, useState } from 'react';
 
 export const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(() => {
     const saved = localStorage.getItem('jobpilot_user');
-    return saved ? JSON.parse(saved) : {
-      id: 'demo-user-123',
-      name: 'Early Developer (Demo)',
-      email: 'demo@jobpilot.ai',
-      isDemo: true,
-      onboarded: true,
-      targetRole: 'Full Stack Engineer',
-      experienceLevel: 'Entry-Level',
-      primarySkills: ['React', 'Node.js', 'Python', 'SQL'],
-      preferredLocation: 'Bengaluru / Remote'
-    };
+    return saved ? JSON.parse(saved) : null;
   });
 
   const loginDemoUser = () => {
@@ -35,7 +25,6 @@ export const AuthProvider = ({ children }) => {
   };
 
   const loginUser = (email, password) => {
-    // Simulated real login authentication
     const realUser = {
       id: `user-${Date.now()}`,
       name: email.split('@')[0],
