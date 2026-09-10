@@ -1,12 +1,13 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { LayoutDashboard, Briefcase, FileText, BellRing, Settings } from 'lucide-react';
+import { LayoutDashboard, Briefcase, FileText, BellRing, BarChart3, Settings } from 'lucide-react';
 
 export default function Sidebar() {
   const links = [
-    { to: '/', label: 'Dashboard', icon: LayoutDashboard },
+    { to: '/dashboard', label: 'Dashboard', icon: LayoutDashboard },
     { to: '/applications', label: 'Applications', icon: Briefcase },
     { to: '/drafts', label: 'AI Drafts', icon: FileText },
+    { to: '/analytics', label: 'Analytics & Insights', icon: BarChart3 },
     { to: '/settings', label: 'Settings', icon: Settings },
   ];
 
