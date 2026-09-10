@@ -21,7 +21,7 @@ export default function Sidebar() {
   ];
 
   return (
-    <aside className="w-64 bg-[#0a0f1d]/90 backdrop-blur-xl border-r border-slate-800/80 hidden md:flex flex-col justify-between p-4 min-h-screen">
+    <aside className="w-64 bg-[#0a0f1d]/95 backdrop-blur-xl border-r border-slate-800/80 hidden md:flex flex-col justify-between p-4 sticky top-16 h-[calc(100vh-4rem)] shrink-0 z-20">
       <div className="space-y-6">
         <div className="flex items-center space-x-3 px-3 py-2">
           <div className="p-2 bg-gradient-to-tr from-indigo-600 to-cyan-500 text-white rounded-xl shadow-md shadow-indigo-600/30">

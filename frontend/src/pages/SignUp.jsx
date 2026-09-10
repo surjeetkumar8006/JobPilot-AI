@@ -40,7 +40,7 @@ export default function SignUp() {
     <div className="min-h-screen bg-slate-950 flex items-center justify-center p-4">
       <div className="max-w-md w-full bg-slate-900 border border-slate-800 rounded-2xl p-8 space-y-6 shadow-2xl">
         <div className="text-center space-y-2">
-          <div className="inline-flex p-3 bg-indigo-600/20 text-indigo-400 rounded-2xl">
+          <div className="inline-flex p-3 bg-slate-800 text-cyan-400 rounded-2xl border border-slate-700">
             <Sparkles className="w-6 h-6" />
           </div>
           <h1 className="text-2xl font-bold text-white">Create your Account</h1>
@@ -60,7 +60,7 @@ export default function SignUp() {
             <input
               type="text"
               required
-              className="w-full bg-slate-800 border border-slate-700 rounded-xl px-3.5 py-2.5 text-sm text-white focus:outline-none focus:border-indigo-500"
+              className="w-full bg-slate-800 border border-slate-700 rounded-xl px-3.5 py-2.5 text-sm text-white focus:outline-none focus:border-cyan-500"
               placeholder="Surjeet Kumar"
               value={formData.name}
               onChange={e => setFormData({ ...formData, name: e.target.value })}
@@ -72,7 +72,7 @@ export default function SignUp() {
             <input
               type="email"
               required
-              className="w-full bg-slate-800 border border-slate-700 rounded-xl px-3.5 py-2.5 text-sm text-white focus:outline-none focus:border-indigo-500"
+              className="w-full bg-slate-800 border border-slate-700 rounded-xl px-3.5 py-2.5 text-sm text-white focus:outline-none focus:border-cyan-500"
               placeholder="developer@example.com"
               value={formData.email}
               onChange={e => setFormData({ ...formData, email: e.target.value })}
@@ -84,7 +84,7 @@ export default function SignUp() {
             <input
               type="password"
               required
-              className="w-full bg-slate-800 border border-slate-700 rounded-xl px-3.5 py-2.5 text-sm text-white focus:outline-none focus:border-indigo-500"
+              className="w-full bg-slate-800 border border-slate-700 rounded-xl px-3.5 py-2.5 text-sm text-white focus:outline-none focus:border-cyan-500"
               placeholder="••••••••"
               value={formData.password}
               onChange={e => setFormData({ ...formData, password: e.target.value })}
@@ -96,7 +96,7 @@ export default function SignUp() {
             <input
               type="password"
               required
-              className="w-full bg-slate-800 border border-slate-700 rounded-xl px-3.5 py-2.5 text-sm text-white focus:outline-none focus:border-indigo-500"
+              className="w-full bg-slate-800 border border-slate-700 rounded-xl px-3.5 py-2.5 text-sm text-white focus:outline-none focus:border-cyan-500"
               placeholder="••••••••"
               value={formData.confirmPassword}
               onChange={e => setFormData({ ...formData, confirmPassword: e.target.value })}
@@ -105,7 +105,7 @@ export default function SignUp() {
 
           <button
             type="submit"
-            className="w-full py-3 px-4 bg-indigo-600 hover:bg-indigo-500 rounded-xl text-white font-semibold text-sm shadow-lg shadow-indigo-600/30 transition-all flex items-center justify-center space-x-2"
+            className="w-full py-3 px-4 bg-white hover:bg-slate-100 rounded-xl text-slate-900 font-semibold text-sm transition-all shadow-none flex items-center justify-center space-x-2"
           >
             <span>Create Account</span>
             <ArrowRight className="w-4 h-4" />
@@ -114,7 +114,7 @@ export default function SignUp() {
 
         <div className="text-center text-xs text-slate-400 border-t border-slate-800 pt-4">
           Already have an account?{' '}
-          <Link to="/login" className="text-indigo-400 font-semibold hover:underline">
+          <Link to="/login" className="text-cyan-400 font-semibold hover:underline">
             Sign in
           </Link>
         </div>

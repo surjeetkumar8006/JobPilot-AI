@@ -7,7 +7,7 @@ import ApplicationForm from '../components/ApplicationForm';
 import { useApplications } from '../hooks/useApplications';
 import { useAuth } from '../hooks/useAuth';
 import { fetchNudges, createApplication } from '../services/api';
-import { Briefcase, Send, Trophy, Sparkles, Plus, AlertTriangle, Eye, Target, Activity } from 'lucide-react';
+import { Briefcase, Eye, Target, Activity, Plus, AlertTriangle } from 'lucide-react';
 
 export default function Dashboard() {
   const { user } = useAuth();
@@ -29,8 +29,6 @@ export default function Dashboard() {
 
   const totalApps = applications.length;
   const interviewing = applications.filter(a => a.status === 'Interview').length;
-  const offers = applications.filter(a => a.status === 'Offer').length;
-  const pendingNudges = nudges.length;
 
   return (
     <div className="space-y-6 max-w-7xl mx-auto">
@@ -46,9 +44,9 @@ export default function Dashboard() {
         </div>
         <button
           onClick={() => setShowModal(true)}
-          className="flex items-center space-x-2 px-5 py-3 bg-indigo-600 hover:bg-indigo-500 rounded-xl text-white font-bold text-sm shadow-lg shadow-indigo-600/30 transition-all hover:scale-105 self-start"
+          className="flex items-center space-x-2 px-5 py-3 bg-white hover:bg-slate-100 rounded-xl text-slate-900 font-semibold text-sm transition-all shadow-none self-start"
         >
-          <Plus className="w-4 h-4" />
+          <Plus className="w-4 h-4 text-slate-900" />
           <span>Add Application</span>
         </button>
       </div>

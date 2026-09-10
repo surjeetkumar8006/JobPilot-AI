@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Sparkles, Bell, LogOut, Circle } from 'lucide-react';
+import { Sparkles, Bell, LogOut } from 'lucide-react';
 import { useAuth } from '../hooks/useAuth';
 
 export default function Navbar() {
@@ -13,7 +13,7 @@ export default function Navbar() {
   };
 
   return (
-    <header className="h-16 bg-[#0a0f1d]/80 backdrop-blur-xl border-b border-slate-800/80 px-6 flex items-center justify-between sticky top-0 z-30">
+    <header className="h-16 bg-[#0a0f1d]/90 backdrop-blur-xl border-b border-slate-800/80 px-6 flex items-center justify-between fixed top-0 left-0 right-0 z-50 w-full">
       <div className="flex items-center space-x-3 md:hidden">
         <div className="p-1.5 bg-indigo-600/20 text-cyan-400 rounded-lg">
           <Sparkles className="w-5 h-5" />
